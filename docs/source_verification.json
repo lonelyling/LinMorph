@@ -1,0 +1,29 @@
+{
+  "original_files_verified": 123,
+  "originals_changed": [],
+  "modified_copies": [
+    "diffsynth/core/data/uni_dataset.py",
+    "examples/wanvideo/model_training/train.py",
+    "examples/wanvideo/model_training/train_6gdn.py",
+    "scripts/ablations/infer_24gdn_compare_text_only.py",
+    "scripts/initialization/materialize_wan21_13b_fullmix_gdn_init.py",
+    "scripts/ablations/materialize_wan21_13b_manual_gdn_init.py",
+    "scripts/ablations/materialize_wan22_5b_manual_gdn_init.py",
+    "scripts/initialization/merge_staged_gdn_init.py",
+    "scripts/evaluation/vbench/generate_vbench_standard_wan21_13b.py",
+    "scripts/evaluation/vbench/evaluate_vbench_standard.py",
+    "scripts/evaluation/vbench2/generate_vbench2_wan21.py",
+    "scripts/evaluation/vbench2/evaluate_vbench2_wan21.py",
+    "scripts/evaluation/vbench2/report_vbench2_wan21.py",
+    "scripts/analysis/analyze_linemorph_learned_mapping.py",
+    "scripts/analysis/summarize_wan21_1_3b_weight_mapping_eval.py",
+    "scripts/ablations/prepare_wan22_5b_quick_eval.py",
+    "scripts/evaluation/vbench/generate_vbench_standard_wan22_5b.py",
+    "scripts/benchmarks/benchmark_wan22_5b.py",
+    "scripts/evaluation/vbench/setup_vbench_standard.sh",
+    "linmorph/benchmark.py"
+  ],
+  "weights_copied": false,
+  "data_copied": false,
+  "uploaded": false
+}

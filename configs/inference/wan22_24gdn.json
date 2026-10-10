@@ -1,0 +1,18 @@
+{
+  "model": {
+    "gdn_expand_v": 2.0,
+    "gdn_head_dim": 256,
+    "gdn_hidden_size": 3072,
+    "gdn_num_heads": 24,
+    "gdn_block_indices": "0,1,2,3,5,6,7,8,10,11,12,13,15,16,17,18,20,21,22,23,25,26,27,28"
+  },
+  "sampling": {
+    "height": 736,
+    "width": 1280,
+    "num_frames": 81,
+    "num_inference_steps": 50,
+    "cfg_scale": 5.0,
+    "sigma_shift": 5.0,
+    "fps": 12
+  }
+}

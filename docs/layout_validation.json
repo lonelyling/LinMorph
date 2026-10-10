@@ -1,0 +1,10 @@
+{
+  "cli_help_from_external_directory": 18,
+  "training_dry_runs": 7,
+  "inference_dry_runs": 3,
+  "comparison_dry_run": true,
+  "wan22_diagnostic_and_benchmark_dry_runs": 2,
+  "vbench_planner_dry_runs_with_synthetic_fixtures": 2,
+  "unchanged_shared_inference_functions": 23,
+  "gpu_execution": false
+}

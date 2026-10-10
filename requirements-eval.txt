@@ -1,0 +1,9 @@
+# Install VBench separately from its official source; see docs/evaluation.md.
+diffusers==0.31.0
+huggingface-hub
+importlib-metadata
+filelock
+regex
+requests
+# NVML monitoring for the preserved A800 benchmarks.
+nvidia-ml-py

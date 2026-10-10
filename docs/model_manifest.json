@@ -1,0 +1,101 @@
+[
+  {
+    "name": "LinMorph-Wan2.1-14GDN",
+    "base_model": "Wan-AI/Wan2.1-T2V-1.3B",
+    "gdn_blocks": "0,1,4,5,8,9,12,13,16,17,20,21,24,25",
+    "training_microstep": 8000,
+    "source_checkpoint": "DiffSynth-Studio/output/train/wan21_13B_warmup500_fullstate_8gpu_ga2/stage2_mapping_14gdn_full_finetune_lr1e5_u5000/model-step-8000.safetensors",
+    "release_filename": "linmorph-wan21-14gdn.safetensors",
+    "huggingface_repo": null,
+    "sha256": null,
+    "exists_locally": true,
+    "size_bytes": 7072585560,
+    "sampling": {
+      "scheduler": "Wan official FlowUniPCMultistepScheduler",
+      "height": 480,
+      "width": 832,
+      "num_frames": 81,
+      "fps": 16,
+      "steps": 50,
+      "cfg_scale": 6.0,
+      "flow_shift": 8.0,
+      "base_seed": 42,
+      "negative_prompt": "色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走"
+    },
+    "header_validation": {
+      "tensor_count": 895,
+      "gdn_blocks": [
+        0,
+        1,
+        4,
+        5,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17,
+        20,
+        21,
+        24,
+        25
+      ],
+      "matches_config": true,
+      "header_sha256": "a1f2909179f90720482eaf4d9f06e4b04b6a51297f2b0d242b2891b5bbb3d489",
+      "contains_lora": false
+    }
+  },
+  {
+    "name": "LinMorph-Wan2.1-21GDN",
+    "base_model": "Wan-AI/Wan2.1-T2V-1.3B",
+    "gdn_blocks": "0,1,2,4,5,6,8,9,10,12,13,14,16,17,18,20,21,22,24,25,26",
+    "training_microstep": 40000,
+    "source_checkpoint": "DiffSynth-Studio/output/train/wan21_13B_warmup500_fullstate_8gpu_ga2/stage2_mapping_full_finetune/model-step-40000.safetensors",
+    "release_filename": "linmorph-wan21-21gdn.safetensors",
+    "huggingface_repo": null,
+    "sha256": null,
+    "exists_locally": true,
+    "size_bytes": 9189839608,
+    "sampling": {
+      "scheduler": "Wan official FlowUniPCMultistepScheduler",
+      "height": 480,
+      "width": 832,
+      "num_frames": 81,
+      "fps": 16,
+      "steps": 50,
+      "cfg_scale": 6.0,
+      "flow_shift": 8.0,
+      "base_seed": 42,
+      "negative_prompt": "色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走"
+    },
+    "header_validation": {
+      "tensor_count": 930,
+      "gdn_blocks": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        24,
+        25,
+        26
+      ],
+      "matches_config": true,
+      "header_sha256": "c58a2ad508118902d7f959ffee816aa78040d8309cfe58afa88789f62f4f40b3",
+      "contains_lora": false
+    }
+  }
+]

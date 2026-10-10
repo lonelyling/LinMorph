@@ -1,0 +1,756 @@
+[
+  {
+    "source": "DiffSynth-Studio/diffsynth/__init__.py",
+    "destination": "diffsynth/__init__.py",
+    "source_sha256": "2b490dcb6e959ba03ed55e65493de2972eb256c34b51b8aa93a0190c59b69c92",
+    "source_bytes": 20
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/configs/__init__.py",
+    "destination": "diffsynth/configs/__init__.py",
+    "source_sha256": "1453aa3d029724c18c36e381f2e973af85026f3078c28630288af1f020acc182",
+    "source_bytes": 110
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/configs/model_configs.py",
+    "destination": "diffsynth/configs/model_configs.py",
+    "source_sha256": "f54f862282391b3e0509569497e40d01975ccfbe3793412fd4dbaaefa1db5303",
+    "source_bytes": 18837
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/configs/vram_management_module_maps.py",
+    "destination": "diffsynth/configs/vram_management_module_maps.py",
+    "source_sha256": "71ccc8f8177770b333ed53a01d61973304076e0e46dd6897b6a19d6eb2a2b2e9",
+    "source_bytes": 15092
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/core/__init__.py",
+    "destination": "diffsynth/core/__init__.py",
+    "source_sha256": "35d0536f78046eaaea388d93d9c5038ff399fb96d5f0f2f3af2c1d2372c75e12",
+    "source_bytes": 133
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/core/attention/__init__.py",
+    "destination": "diffsynth/core/attention/__init__.py",
+    "source_sha256": "558e2a638ecbd3b7287bb9ab74d0e7e70b098da59bb8127163a494c39ec24190",
+    "source_bytes": 41
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/core/attention/attention.py",
+    "destination": "diffsynth/core/attention/attention.py",
+    "source_sha256": "1b55a91812b4e82b6b0ba9c7f46036231acca3234a0b6a105ed210954508e2e4",
+    "source_bytes": 5756
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/core/data/__init__.py",
+    "destination": "diffsynth/core/data/__init__.py",
+    "source_sha256": "9118710b2ca2e2659418f0d55a17f95ab71fb6e2d32c49fc58ad69a5f710823a",
+    "source_bytes": 44
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/core/data/operators.py",
+    "destination": "diffsynth/core/data/operators.py",
+    "source_sha256": "c02a73ebfc8bef63f175fe54882d0faf4224d7552ea852df75b27823a8f235a4",
+    "source_bytes": 7735
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/core/data/qworld_cache_paths.py",
+    "destination": "diffsynth/core/data/qworld_cache_paths.py",
+    "source_sha256": "86d548b6ea65c350df91a09b7bf9b68dfab09268feb82fb9d4d0b86fc995bc71",
+    "source_bytes": 4138
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/core/data/qworld_common_dataset.py",
+    "destination": "diffsynth/core/data/qworld_common_dataset.py",
+    "source_sha256": "d980d013eb90fa6b9381fb12a071c7136c38a134bd82f3d8999e57294fcaa06a",
+    "source_bytes": 32822
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/core/data/uni_dataset.py",
+    "destination": "diffsynth/core/data/uni_dataset.py",
+    "source_sha256": "ae88e56527ebf6dcf771fa69a2dc06cbeaf711b47d018bd649f6fc7ef90dcb8f",
+    "source_bytes": 42906
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/core/data/unified_dataset.py",
+    "destination": "diffsynth/core/data/unified_dataset.py",
+    "source_sha256": "c7ae88544a10aee21623a473da36bca2e5f37ff1160c82ae640e2c51238f786c",
+    "source_bytes": 4813
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/core/device/__init__.py",
+    "destination": "diffsynth/core/device/__init__.py",
+    "source_sha256": "45d936018d1f1e65c2fc53ffe0def4992b743315c5ce37437d1c0d7f1dcdeb86",
+    "source_bytes": 99
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/core/device/npu_compatible_device.py",
+    "destination": "diffsynth/core/device/npu_compatible_device.py",
+    "source_sha256": "f58a8746443e2558629c2d214a1e8f0edca3b7344b280e48239abfd6938da75f",
+    "source_bytes": 2877
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/core/gradient/__init__.py",
+    "destination": "diffsynth/core/gradient/__init__.py",
+    "source_sha256": "e8db9f67a95741bcb4619b0cf8392152b9204ba16308b4dc7af943d8b7f22999",
+    "source_bytes": 61
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/core/gradient/gradient_checkpoint.py",
+    "destination": "diffsynth/core/gradient/gradient_checkpoint.py",
+    "source_sha256": "5c641446c35fa726f81a2ddd86549e0a05ab89ff730faccab7bb440a33eec874",
+    "source_bytes": 907
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/core/loader/__init__.py",
+    "destination": "diffsynth/core/loader/__init__.py",
+    "source_sha256": "f678e318bd3ae323a7878c644911afa26d18758effff7cca37ecc695d1cdaf52",
+    "source_bytes": 165
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/core/loader/config.py",
+    "destination": "diffsynth/core/loader/config.py",
+    "source_sha256": "ac1a74e39a0f23cbb6fead85eb780af314d8285023176d96e2063d8026dce9d1",
+    "source_bytes": 4974
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/core/loader/file.py",
+    "destination": "diffsynth/core/loader/file.py",
+    "source_sha256": "78f48d4d00bbbfc361603e0ddb13628a5fe831d3ccec8d72982333614751ab8e",
+    "source_bytes": 4324
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/core/loader/model.py",
+    "destination": "diffsynth/core/loader/model.py",
+    "source_sha256": "53f327ec4287cd611e834cc8e5c8477969f511e2e64d4f4a5539b411cbe1775b",
+    "source_bytes": 6768
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/core/vram/__init__.py",
+    "destination": "diffsynth/core/vram/__init__.py",
+    "source_sha256": "3fc422826dd95a5f058ff5bec9d8b48e883b641ef0f5e32010743394002bb5f5",
+    "source_bytes": 76
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/core/vram/disk_map.py",
+    "destination": "diffsynth/core/vram/disk_map.py",
+    "source_sha256": "dc01de940384ca36a94c5b8f27306a91a517249e076437270407cb2fafaed91f",
+    "source_bytes": 3407
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/core/vram/initialization.py",
+    "destination": "diffsynth/core/vram/initialization.py",
+    "source_sha256": "a5541a038db28b2290e0bc1078ed3b78d1f45db84ce66a3d6b46ea68b98bbb22",
+    "source_bytes": 766
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/core/vram/layers.py",
+    "destination": "diffsynth/core/vram/layers.py",
+    "source_sha256": "eeb61305acd766db955b2489d160a31f764bffe8f2d908986fd6a29cef9317b7",
+    "source_bytes": 19314
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/diffusion/__init__.py",
+    "destination": "diffsynth/diffusion/__init__.py",
+    "source_sha256": "8a300ffaa589c28ee5238b44ed1121655a072c270bdbbd9dde77481b94e6d319",
+    "source_bytes": 238
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/diffusion/base_pipeline.py",
+    "destination": "diffsynth/diffusion/base_pipeline.py",
+    "source_sha256": "833036ddf6d01799427a22aacb60a70144275a33ef97f861c5bea09afd48d96c",
+    "source_bytes": 21019
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/diffusion/flow_match.py",
+    "destination": "diffsynth/diffusion/flow_match.py",
+    "source_sha256": "3a0fee632895f70fcc20ee081b36860ecedbd6898b0c5a243e8f2fd0acdd0e65",
+    "source_bytes": 7620
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/diffusion/logger.py",
+    "destination": "diffsynth/diffusion/logger.py",
+    "source_sha256": "5b69d07c29737117a5c9d3a9be86a6dd4e44debc58ad79cec64fdf0c15c67410",
+    "source_bytes": 5844
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/diffusion/loss.py",
+    "destination": "diffsynth/diffusion/loss.py",
+    "source_sha256": "d154e98ca696ed8703c4270cf5228532aa3ab26588b611593e284e9f2df6da0a",
+    "source_bytes": 6729
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/diffusion/parsers.py",
+    "destination": "diffsynth/diffusion/parsers.py",
+    "source_sha256": "db1a58d899425c118ca5eccf4138a4845db04ca414907c790c32f56f38324412",
+    "source_bytes": 5760
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/diffusion/runner.py",
+    "destination": "diffsynth/diffusion/runner.py",
+    "source_sha256": "c2542b6b24566b62949a08d7b09db2f8df513ecace0790ae8df8d59bda949b4b",
+    "source_bytes": 67078
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/diffusion/training_module.py",
+    "destination": "diffsynth/diffusion/training_module.py",
+    "source_sha256": "18858afa6efeab781067b22d8bed35fdc17f05eb6ee8cfb3488530ca43c61e51",
+    "source_bytes": 17302
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/fla_compat.py",
+    "destination": "diffsynth/models/fla_compat.py",
+    "source_sha256": "724a350cd9dbc6c3d943a6382ea567193efd16daaec69784f8c6b8bfe19bc1cc",
+    "source_bytes": 3196
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/gdn_cuda_gates.py",
+    "destination": "diffsynth/models/gdn_cuda_gates.py",
+    "source_sha256": "0311e6ff336f0bd68aa8ed131abe548f57fcc917c6e00049232a27a469fd27d1",
+    "source_bytes": 935
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/general_modules.py",
+    "destination": "diffsynth/models/general_modules.py",
+    "source_sha256": "d0f56259f50d767253f21c49649eb2cc7e074539ea5b8d0317ab8fd1c725585f",
+    "source_bytes": 5814
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/longcat_video_dit.py",
+    "destination": "diffsynth/models/longcat_video_dit.py",
+    "source_sha256": "3d82e4dbaa8dcc6dc09f0861865128c458989c8d976bccc04ed1bd6cff357b63",
+    "source_bytes": 33927
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/model_loader.py",
+    "destination": "diffsynth/models/model_loader.py",
+    "source_sha256": "00a73434c5f619cb759445183c864e083fb60ec12566329e5e8ec928041ebe5c",
+    "source_bytes": 6732
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/sd_text_encoder.py",
+    "destination": "diffsynth/models/sd_text_encoder.py",
+    "source_sha256": "cec55e832318ffb84a5b451a64776236666134a2031955101096db88eaff7407",
+    "source_bytes": 32698
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/siglip2_image_encoder.py",
+    "destination": "diffsynth/models/siglip2_image_encoder.py",
+    "source_sha256": "5002eecf35de8ec38537b070e3cbb77fb6813b5f59ab2383ed99eecb83178414",
+    "source_bytes": 2407
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/step1x_connector.py",
+    "destination": "diffsynth/models/step1x_connector.py",
+    "source_sha256": "463eda018a395ed7a912ff12802444d80b90d5de531b0c4a868c2639754870f8",
+    "source_bytes": 20916
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/step1x_text_encoder.py",
+    "destination": "diffsynth/models/step1x_text_encoder.py",
+    "source_sha256": "cee8181932f12cd42518a1b6ba02cf3e5a3fb3a82acc8d1b42abb4af644ceedc",
+    "source_bytes": 7799
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/wan_video_animate_adapter.py",
+    "destination": "diffsynth/models/wan_video_animate_adapter.py",
+    "source_sha256": "3b0a3fda39a1b7c76b7f4ce87428054bc6b43eb990bf2520f09e207ee88563a1",
+    "source_bytes": 18735
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/wan_video_camera_controller.py",
+    "destination": "diffsynth/models/wan_video_camera_controller.py",
+    "source_sha256": "2bad958eb9893105cc7215a4bb91b2c039bde5eb6af8ddf0f02c09e6f7883d61",
+    "source_bytes": 7576
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/wan_video_dit.py",
+    "destination": "diffsynth/models/wan_video_dit.py",
+    "source_sha256": "ef41f368534f491653c11697b203834449f0565e544847da0eca362b7efa317d",
+    "source_bytes": 15735
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/wan_video_dit_linear.py",
+    "destination": "diffsynth/models/wan_video_dit_linear.py",
+    "source_sha256": "6ad805b6546ecb567765629a2f05ef39a6ec81cbed907a601f693ac69c1905d3",
+    "source_bytes": 39101
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/wan_video_dit_map.py",
+    "destination": "diffsynth/models/wan_video_dit_map.py",
+    "source_sha256": "d7c905c3462524a17acb85778cf249233e0e0b6f52a66b16dfdcdb03b8bce22a",
+    "source_bytes": 21483
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/wan_video_dit_mem_attn.py",
+    "destination": "diffsynth/models/wan_video_dit_mem_attn.py",
+    "source_sha256": "8f1da462957d7c9dd6ce207e05b476c120bda84ad3cf49c75b592e5d0299a524",
+    "source_bytes": 23113
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/wan_video_dit_s2v.py",
+    "destination": "diffsynth/models/wan_video_dit_s2v.py",
+    "source_sha256": "26f3ce3bdcc13499ccb66a1b5aa99090f40e84af9803b83ea8299ed8f80b4e64",
+    "source_bytes": 26245
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/wan_video_dit_with_appearance.py",
+    "destination": "diffsynth/models/wan_video_dit_with_appearance.py",
+    "source_sha256": "d6bea3bec314884b06884ab96138c2c3fa4d3189dfe04f7d8501893896837e9d",
+    "source_bytes": 17958
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/wan_video_image_encoder.py",
+    "destination": "diffsynth/models/wan_video_image_encoder.py",
+    "source_sha256": "77a6f63125512975486c9af8c795350c7b2799062887e424e8d589f366135b3d",
+    "source_bytes": 27486
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/wan_video_mot.py",
+    "destination": "diffsynth/models/wan_video_mot.py",
+    "source_sha256": "5b1984175202c6fda81645716b0cd475b916d6e13aab3ab01156e8973c5155bc",
+    "source_bytes": 7169
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/wan_video_motion_controller.py",
+    "destination": "diffsynth/models/wan_video_motion_controller.py",
+    "source_sha256": "15c2288c1e64a08d24d5e231a33cdf40197ede221231f88ae9ad2f1a43772af1",
+    "source_bytes": 802
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/wan_video_text_encoder.py",
+    "destination": "diffsynth/models/wan_video_text_encoder.py",
+    "source_sha256": "5b1de1c6107d4e5b8e618a1a98c91fa9bdef97ad0bb3168204dfe8d50b0306f5",
+    "source_bytes": 11330
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/wan_video_vace.py",
+    "destination": "diffsynth/models/wan_video_vace.py",
+    "source_sha256": "af06bdeafab0a930840b34f3c2ba9323886c56c2d368390ea4bb57dfa97f5ab5",
+    "source_bytes": 3125
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/wan_video_vae.py",
+    "destination": "diffsynth/models/wan_video_vae.py",
+    "source_sha256": "1678b8e66311a9cf08f95df980b00dc84c497cee7bb99d13146388415967b8ae",
+    "source_bytes": 49220
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/wav2vec.py",
+    "destination": "diffsynth/models/wav2vec.py",
+    "source_sha256": "bab70b67d98d8c335d8b23622517d09e1acb52b88cbde6129386917c4f3b67ef",
+    "source_bytes": 8520
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/z_image_dit.py",
+    "destination": "diffsynth/models/z_image_dit.py",
+    "source_sha256": "cdf27d6740baf2ceb8cc933fc8bd38839af1ecf1b822f6d95ea730250ea4a52d",
+    "source_bytes": 22285
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/models/z_image_text_encoder.py",
+    "destination": "diffsynth/models/z_image_text_encoder.py",
+    "source_sha256": "93213b8e979f67d0319e642b60afc21cfef90fb0241f8f70e98063c356521b58",
+    "source_bytes": 1334
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/pipelines/__init__.py",
+    "destination": "diffsynth/pipelines/__init__.py",
+    "source_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "source_bytes": 1
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/pipelines/pipeline_cross.py",
+    "destination": "diffsynth/pipelines/pipeline_cross.py",
+    "source_sha256": "a4304d4c877273a5171786015feb4f64c902aecc2a3049543939fe5938a8669c",
+    "source_bytes": 80060
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/pipelines/pipeline_map.py",
+    "destination": "diffsynth/pipelines/pipeline_map.py",
+    "source_sha256": "f0b86ba742e19b2416fb5e4c898a046db1c186c2be1ea020f15924cfd11ecfb9",
+    "source_bytes": 77619
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/pipelines/wan_video.py",
+    "destination": "diffsynth/pipelines/wan_video.py",
+    "source_sha256": "e1fb5d7ff090dca6a29b9045213916167c3d50960564451cc077fda9db01c3c8",
+    "source_bytes": 75619
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/pipelines/wan_video_linear.py",
+    "destination": "diffsynth/pipelines/wan_video_linear.py",
+    "source_sha256": "a2e77a1d4ef279f3d7705d2153c1b28fd0cc89c57b58b4bbbe7a9ee110c5bc16",
+    "source_bytes": 75626
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/controlnet/__init__.py",
+    "destination": "diffsynth/utils/controlnet/__init__.py",
+    "source_sha256": "b13bf723a8ddad5dfb57cf9ddd195d41ee72b9fd9cd0929740335051597b1b6f",
+    "source_bytes": 79
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/controlnet/annotator.py",
+    "destination": "diffsynth/utils/controlnet/annotator.py",
+    "source_sha256": "3a70316a93113f374185fc465b1b48e95ac47d8907ecafe1769ca3dc155c3ded",
+    "source_bytes": 2952
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/controlnet/controlnet_input.py",
+    "destination": "diffsynth/utils/controlnet/controlnet_input.py",
+    "source_sha256": "28d97cdcaf6aed521a56e5d1a570d1d1ab6171ce38d18ad53e411cb4269eea62",
+    "source_bytes": 282
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/data/__init__.py",
+    "destination": "diffsynth/utils/data/__init__.py",
+    "source_sha256": "6c124dc94468972c4f30312b7256767c9135ffcef76d93166c4184cac3d455f4",
+    "source_bytes": 7417
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/lora/__init__.py",
+    "destination": "diffsynth/utils/lora/__init__.py",
+    "source_sha256": "ad93fc1668f31d2230f409307db5ea39f3ae2617cc7d371a1e852fcae28737d9",
+    "source_bytes": 108
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/lora/flux.py",
+    "destination": "diffsynth/utils/lora/flux.py",
+    "source_sha256": "81ab2f7b581cf7f8baaa76ed445e1876424ca3dfde6179ae5cddbccab0a4da40",
+    "source_bytes": 21290
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/lora/general.py",
+    "destination": "diffsynth/utils/lora/general.py",
+    "source_sha256": "8fc0cc07a7730eadbdd787df68cce6ae9468169f6306030337db1ffd5bf41f19",
+    "source_bytes": 2826
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/lora/merge.py",
+    "destination": "diffsynth/utils/lora/merge.py",
+    "source_sha256": "85963271f8ee6a39cb900cfca2a195642292715369139d0906d56f55780ea8c2",
+    "source_bytes": 698
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/lora/reset_rank.py",
+    "destination": "diffsynth/utils/lora/reset_rank.py",
+    "source_sha256": "80e847b97ba9aa55f08e5452645d9119b6f22d4497947fc76f107a3c98a44736",
+    "source_bytes": 786
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/state_dict_converters/__init__.py",
+    "destination": "diffsynth/utils/state_dict_converters/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_bytes": 0
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/state_dict_converters/flux2_text_encoder.py",
+    "destination": "diffsynth/utils/state_dict_converters/flux2_text_encoder.py",
+    "source_sha256": "b53011f1fca4b6c7a8283ebaea44715652ab97fc976a31fc8abde6f642f04ee4",
+    "source_bytes": 870
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/state_dict_converters/flux_controlnet.py",
+    "destination": "diffsynth/utils/state_dict_converters/flux_controlnet.py",
+    "source_sha256": "9ed9d124a8fba07a2d65a8245c30c52bbfdceba983f436e66b1e438552039632",
+    "source_bytes": 4859
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/state_dict_converters/flux_dit.py",
+    "destination": "diffsynth/utils/state_dict_converters/flux_dit.py",
+    "source_sha256": "6ced1b6170dea9f7ef8f9d16aeb51430d31190d57c99e82dc9023f259ee5fdd2",
+    "source_bytes": 4510
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/state_dict_converters/flux_infiniteyou.py",
+    "destination": "diffsynth/utils/state_dict_converters/flux_infiniteyou.py",
+    "source_sha256": "1c840b7b41779767590450a0c0c8a22b7cfda03905dc5f02b9bcfebd2de83f18",
+    "source_bytes": 100
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/state_dict_converters/flux_ipadapter.py",
+    "destination": "diffsynth/utils/state_dict_converters/flux_ipadapter.py",
+    "source_sha256": "46fd5fea2ef79caa1d78fb7baaba7d6f52025e84df2dc0f0927bd7fd3d446cd0",
+    "source_bytes": 1093
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/state_dict_converters/flux_text_encoder_clip.py",
+    "destination": "diffsynth/utils/state_dict_converters/flux_text_encoder_clip.py",
+    "source_sha256": "04b93ea83d8810874062f0d3d593a4b9afad1b5b401570e65d37ea0ef6f93a6d",
+    "source_bytes": 1396
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/state_dict_converters/flux_text_encoder_t5.py",
+    "destination": "diffsynth/utils/state_dict_converters/flux_text_encoder_t5.py",
+    "source_sha256": "21f9d4b2cd268362440ac6109c447fffb233e2e68b62841f562e1788d4545d1d",
+    "source_bytes": 210
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/state_dict_converters/flux_vae.py",
+    "destination": "diffsynth/utils/state_dict_converters/flux_vae.py",
+    "source_sha256": "844f90365855648b08863f0267e4d0080e216047e797bc59ed0466e598ac8c95",
+    "source_bytes": 23589
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/state_dict_converters/nexus_gen.py",
+    "destination": "diffsynth/utils/state_dict_converters/nexus_gen.py",
+    "source_sha256": "0e9ac3f7c5d1998634b3cefee7be55d38343009819e62d616648fb60d3c18d3e",
+    "source_bytes": 218
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/state_dict_converters/nexus_gen_projector.py",
+    "destination": "diffsynth/utils/state_dict_converters/nexus_gen_projector.py",
+    "source_sha256": "c47786ddf6c2b3a40169c85fbaf7657a5049693b435515d53487bd220b72f0b1",
+    "source_bytes": 552
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/state_dict_converters/qwen_image_text_encoder.py",
+    "destination": "diffsynth/utils/state_dict_converters/qwen_image_text_encoder.py",
+    "source_sha256": "bd2a8ad07fb92b3febfc37b431387e4ee8be486a11534612dc1c154c9f718935",
+    "source_bytes": 341
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/state_dict_converters/step1x_connector.py",
+    "destination": "diffsynth/utils/state_dict_converters/step1x_connector.py",
+    "source_sha256": "d76546ed6b8dc901348e4125a62905933eb4a825577ce0a0b401caeed7fe6a0d",
+    "source_bytes": 258
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/state_dict_converters/wan_video_animate_adapter.py",
+    "destination": "diffsynth/utils/state_dict_converters/wan_video_animate_adapter.py",
+    "source_sha256": "fea072411d46e28cafb16947464adcdbe237b857a1dfc726480234d43301d289",
+    "source_bytes": 333
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/state_dict_converters/wan_video_dit.py",
+    "destination": "diffsynth/utils/state_dict_converters/wan_video_dit.py",
+    "source_sha256": "02608f01e0bea26eb252c95013c26e5c2820f9cc1ac0235bf29b2e9f3a8c0a68",
+    "source_bytes": 5270
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/state_dict_converters/wan_video_image_encoder.py",
+    "destination": "diffsynth/utils/state_dict_converters/wan_video_image_encoder.py",
+    "source_sha256": "cce0bd4d5123488240c5e941dfeb96dc604fccfffd12b5d41837204856d05438",
+    "source_bytes": 261
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/state_dict_converters/wan_video_mot.py",
+    "destination": "diffsynth/utils/state_dict_converters/wan_video_mot.py",
+    "source_sha256": "91af82cc6455cc283bdfd420fa56388c65ac83ef6f69979904ba387c528b2b58",
+    "source_bytes": 4942
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/state_dict_converters/wan_video_vace.py",
+    "destination": "diffsynth/utils/state_dict_converters/wan_video_vace.py",
+    "source_sha256": "cc6c39d6e2b16819c341ea76dff680bea11d16817e353229344f6fb98e2e30ca",
+    "source_bytes": 159
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/state_dict_converters/wan_video_vae.py",
+    "destination": "diffsynth/utils/state_dict_converters/wan_video_vae.py",
+    "source_sha256": "3b1b98e5a06c984455bbde6560abb09cd79cc4d4403b79805835637eced472df",
+    "source_bytes": 257
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/state_dict_converters/wans2v_audio_encoder.py",
+    "destination": "diffsynth/utils/state_dict_converters/wans2v_audio_encoder.py",
+    "source_sha256": "813cdf1f84b77fbc9538760ae55c7efdc366cd8788c4d27c1c654d44ed37aa91",
+    "source_bytes": 588
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/token_tracker.py",
+    "destination": "diffsynth/utils/token_tracker.py",
+    "source_sha256": "4aba5cbd2afaa48e508b045f2466c8beb2c934915df530f3c73e88cc282aa111",
+    "source_bytes": 4136
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/xfuser/__init__.py",
+    "destination": "diffsynth/utils/xfuser/__init__.py",
+    "source_sha256": "df04a4d2a89609a19703f658a77753f183cdda3f580a42ef79df27724c666b46",
+    "source_bytes": 119
+  },
+  {
+    "source": "DiffSynth-Studio/diffsynth/utils/xfuser/xdit_context_parallel.py",
+    "destination": "diffsynth/utils/xfuser/xdit_context_parallel.py",
+    "source_sha256": "dd6b0db4a5613028196dba5c563eebc1a77818cf4a00f73632167c6c40d098d2",
+    "source_bytes": 5333
+  },
+  {
+    "source": "DiffSynth-Studio/examples/wanvideo/model_training/train.py",
+    "destination": "examples/wanvideo/model_training/train.py",
+    "source_sha256": "d7c5365521964567393bc282684bc28189f8288c90051f4fd84583792d1a6455",
+    "source_bytes": 38909
+  },
+  {
+    "source": "DiffSynth-Studio/examples/wanvideo/model_training/train_6gdn.py",
+    "destination": "examples/wanvideo/model_training/train_6gdn.py",
+    "source_sha256": "e01e3d8b1892c2b895770f83dd05052355781b980a2f3ddc1094593d1be455ba",
+    "source_bytes": 58685
+  },
+  {
+    "source": "DiffSynth-Studio/examples/wanvideo/model_training/train_single_layer_weight_mapping.py",
+    "destination": "examples/wanvideo/model_training/train_single_layer_weight_mapping.py",
+    "source_sha256": "975a6bff70decd279febba85c77fa2591f186e151ae2de233b119841a3c85c5f",
+    "source_bytes": 71251
+  },
+  {
+    "source": "DiffSynth-Studio/examples/wanvideo/model_training/eval_single_layer_weight_mapping.py",
+    "destination": "examples/wanvideo/model_training/eval_single_layer_weight_mapping.py",
+    "source_sha256": "d483374f4ace75d3be6b11159c6e94f17702f18c697151b2c05e651afe09fe85",
+    "source_bytes": 51379
+  },
+  {
+    "source": "DiffSynth-Studio/examples/wanvideo/model_training/eval_wan21_1_3b_large_gdn_mapping.py",
+    "destination": "examples/wanvideo/model_training/eval_wan21_1_3b_large_gdn_mapping.py",
+    "source_sha256": "2f64613e8127f3befd47030939e3c2c758bb9deccdc852a73e3ade710191e3ad",
+    "source_bytes": 29323
+  },
+  {
+    "source": "DiffSynth-Studio/examples/wanvideo/model_training/materialize_gdn_mapping_init.py",
+    "destination": "examples/wanvideo/model_training/materialize_gdn_mapping_init.py",
+    "source_sha256": "4ad03626a464c39f24244f9f9135628dcbbd49a7d308e167c7f98a76e5a6cb69",
+    "source_bytes": 12278
+  },
+  {
+    "source": "DiffSynth-Studio/examples/wanvideo/model_training/diagnose_gdn_repair.py",
+    "destination": "examples/wanvideo/model_training/diagnose_gdn_repair.py",
+    "source_sha256": "564e2aa3e4c24291ecc2bb205a8be77337e69afcb1f8257e29d1254d3af054bd",
+    "source_bytes": 23053
+  },
+  {
+    "source": "from_congyue/train_single_layer_linear_adapter.py",
+    "destination": "examples/wanvideo/model_training/train_single_layer_linear_adapter.py",
+    "source_sha256": "789431226093dd4126dd888fd7e276614039629fa209e8cadb42a1a60f58f4b6",
+    "source_bytes": 117455
+  },
+  {
+    "source": "DiffSynth-Studio/scripts/infer_24gdn_compare_text_only.py",
+    "destination": "scripts/ablations/infer_24gdn_compare_text_only.py",
+    "source_sha256": "e1f75f001713bb9c90bfc228fee011713707e26f83dbbe4218d7e2d606cba37e",
+    "source_bytes": 36244,
+    "additional_destinations": [
+      "linmorph/inference.py"
+    ]
+  },
+  {
+    "source": "DiffSynth-Studio/scripts/materialize_wan21_13b_fullmix_gdn_init.py",
+    "destination": "scripts/initialization/materialize_wan21_13b_fullmix_gdn_init.py",
+    "source_sha256": "0f847873a77af902f43ecdcc5231c6070e9db3827ae76463b183bd1857ff2dd4",
+    "source_bytes": 18036,
+    "additional_destinations": [
+      "linmorph/materialization.py"
+    ]
+  },
+  {
+    "source": "DiffSynth-Studio/scripts/materialize_wan21_13b_manual_gdn_init.py",
+    "destination": "scripts/ablations/materialize_wan21_13b_manual_gdn_init.py",
+    "source_sha256": "d006c9848f8ecb92fc9c81ca6ef677abd4d3b3dc2b9d976bef1c5f4fef9330c8",
+    "source_bytes": 6058
+  },
+  {
+    "source": "DiffSynth-Studio/scripts/materialize_wan22_5b_manual_gdn_init.py",
+    "destination": "scripts/ablations/materialize_wan22_5b_manual_gdn_init.py",
+    "source_sha256": "77e71f9d5e4652218788300b1482755a9a21e1106fdbae0a833511e095465a95",
+    "source_bytes": 6636
+  },
+  {
+    "source": "DiffSynth-Studio/scripts/merge_staged_gdn_init.py",
+    "destination": "scripts/initialization/merge_staged_gdn_init.py",
+    "source_sha256": "99a529b1771e9af289a0cde2b9d217430892ed08939e44889551218011f5d99f",
+    "source_bytes": 11980
+  },
+  {
+    "source": "DiffSynth-Studio/scripts/generate_vbench_standard_wan21_13b.py",
+    "destination": "scripts/evaluation/vbench/generate_vbench_standard_wan21_13b.py",
+    "source_sha256": "3653b99ec20144686762fd10f141a45386baa7cd9b3fa96f0ffc8536e192774c",
+    "source_bytes": 28725,
+    "additional_destinations": [
+      "linmorph/vbench.py",
+      "linmorph/sampling.py"
+    ]
+  },
+  {
+    "source": "DiffSynth-Studio/scripts/evaluate_vbench_standard.py",
+    "destination": "scripts/evaluation/vbench/evaluate_vbench_standard.py",
+    "source_sha256": "11b2ca5ca9d5cb95f27906bbbec47876c6fdd4fe99889974b942fcf5d400e854",
+    "source_bytes": 31955
+  },
+  {
+    "source": "DiffSynth-Studio/scripts/generate_vbench2_wan21.py",
+    "destination": "scripts/evaluation/vbench2/generate_vbench2_wan21.py",
+    "source_sha256": "d1f2c3e29cd440eac83459dd2c42fbe99449ff3056811e5685b28c67c7a3b171",
+    "source_bytes": 7369,
+    "additional_destinations": [
+      "linmorph/vbench2.py"
+    ]
+  },
+  {
+    "source": "DiffSynth-Studio/scripts/evaluate_vbench2_wan21.py",
+    "destination": "scripts/evaluation/vbench2/evaluate_vbench2_wan21.py",
+    "source_sha256": "d3c7eb2bd43b795661c22c899234aeba1bcf40a7e7560076356e3fc9c05d7b43",
+    "source_bytes": 3944
+  },
+  {
+    "source": "DiffSynth-Studio/scripts/report_vbench2_wan21.py",
+    "destination": "scripts/evaluation/vbench2/report_vbench2_wan21.py",
+    "source_sha256": "cfe7debbcf83d77904840dfc8915432daef21eaec3bdd9313f692e3c925123e8",
+    "source_bytes": 5291
+  },
+  {
+    "source": "DiffSynth-Studio/scripts/analyze_linemorph_learned_mapping.py",
+    "destination": "scripts/analysis/analyze_linemorph_learned_mapping.py",
+    "source_sha256": "28393f64f7440b7304bc936b6bd1601f80e5214e49682a1e36d22c7a264f8687",
+    "source_bytes": 25120
+  },
+  {
+    "source": "DiffSynth-Studio/scripts/summarize_wan21_1_3b_weight_mapping_eval.py",
+    "destination": "scripts/analysis/summarize_wan21_1_3b_weight_mapping_eval.py",
+    "source_sha256": "7c885970ad5ded3fe9b3a4e048bc6eb3b2ddd1b4a0befe6a0405c1884fb4fe03",
+    "source_bytes": 9149
+  },
+  {
+    "source": "DiffSynth-Studio/scripts/prepare_wan22_5b_quick_eval.py",
+    "destination": "scripts/ablations/prepare_wan22_5b_quick_eval.py",
+    "source_sha256": "cfcb343e1fd4dea48026a1cb8542a72322e23a187bbcfeb577a8d3cd5d02374b",
+    "source_bytes": 16029,
+    "additional_destinations": [
+      "linmorph/wan22.py"
+    ]
+  },
+  {
+    "source": "DiffSynth-Studio/scripts/generate_vbench_standard_wan22_5b.py",
+    "destination": "scripts/evaluation/vbench/generate_vbench_standard_wan22_5b.py",
+    "source_sha256": "914d3f89cbc38c24f83dc4e5b19bc918892ed0d28196a78eee152ac847248582",
+    "source_bytes": 5359
+  },
+  {
+    "source": "DiffSynth-Studio/scripts/benchmark_wan22_5b.py",
+    "destination": "scripts/benchmarks/benchmark_wan22_5b.py",
+    "source_sha256": "84f7b8cd08ae4ddad9b097e807dec38b045bfb9a271893e1b0c39bc18178b214",
+    "source_bytes": 8187
+  },
+  {
+    "source": "DiffSynth-Studio/LICENSE",
+    "destination": "LICENSE",
+    "source_sha256": "d43b96112d60d83595395649e61c6bc215f568052a979320489556c6c1262eb1",
+    "source_bytes": 11347
+  },
+  {
+    "source": "DiffSynth-Studio/accelerate_config_weight_mapping.yaml",
+    "destination": "configs/accelerate.yaml",
+    "source_sha256": "e17bfe7ed65c800cf8a575c59b418c8fccad30d0753bd432610677b24a8c1d4f",
+    "source_bytes": 333
+  },
+  {
+    "source": "DiffSynth-Studio/scripts/setup_vbench_standard.sh",
+    "destination": "scripts/evaluation/vbench/setup_vbench_standard.sh",
+    "source_sha256": "83f209cabd946fb6b66cad2ed15d75274dd57530bf510b6249007233851f6a3d",
+    "source_bytes": 2994
+  },
+  {
+    "source": "DiffSynth-Studio/scripts/speed_benchmark/runtime.py",
+    "destination": "linmorph/benchmark.py",
+    "source_sha256": "de292174c5cf8592fa0e000cdc15c4d5b1ca16311ee87dc5504bb0516158fcfb",
+    "source_bytes": 9560
+  }
+]

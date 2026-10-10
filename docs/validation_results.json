@@ -1,0 +1,25 @@
+{
+  "source_checks": {
+    "files_checked": 167,
+    "python_files_compiled": 130,
+    "errors": []
+  },
+  "training_configs_parser_and_dry_run": 7,
+  "inference_configs_dry_run": 3,
+  "inference_modules_resolve_in_release": 52,
+  "checkpoint_headers_match_configs": 2,
+  "gpu_training_run": false,
+  "gpu_generation_run": false,
+  "clean_install_verified": false,
+  "script_layout": {
+    "cli_help_from_external_directory": 18,
+    "training_dry_runs": 7,
+    "inference_dry_runs": 3,
+    "comparison_dry_run": true,
+    "wan22_diagnostic_and_benchmark_dry_runs": 2,
+    "vbench_planner_dry_runs_with_synthetic_fixtures": 2,
+    "unchanged_shared_inference_functions": 23,
+    "gpu_execution": false
+  },
+  "original_files_verified_unchanged": 123
+}

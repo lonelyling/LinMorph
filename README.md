@@ -2,11 +2,11 @@
 
 **Learning to Morph Weights for Efficient Video DiT Linearization**
 
-[中文说明](README_zh.md) · [Installation](docs/installation.md) · [Training](docs/training.md) · [Evaluation](docs/evaluation.md) · [Models](docs/models.md)
+[Project page](https://lonelyling.github.io/LinMorph/) · [Installation](docs/installation.md) · [Training](docs/training.md) · [Evaluation](docs/evaluation.md) · [Models](docs/models.md)
 
 LinMorph learns a shared transformation from pretrained softmax-attention projections to Gated DeltaNet (GDN) parameters. The generated parameters initialize independently trainable replacement blocks, followed by progressive distillation and full hybrid-DiT recovery.
 
-This release directory consolidates the local research implementation on top of DiffSynth-Studio. Core import names and checkpoint tensor names are retained for compatibility. Weights and datasets are not bundled. Public weight URLs and paper metadata have not yet been assigned. See [release status](docs/release_checklist.md) for the remaining publication steps and validation limits.
+This release directory consolidates the local research implementation on top of DiffSynth-Studio. Core import names and checkpoint tensor names are retained for compatibility. Weights and datasets are not bundled. Model weights are hosted at [Lonelly/LinMorph](https://huggingface.co/Lonelly/LinMorph). A public paper identifier and final author metadata are not yet available. See [release status](docs/release_checklist.md) for the remaining publication steps and validation limits.
 
 ## Models
 
@@ -32,7 +32,7 @@ python scripts/inference.py \
   --output output/demo.mp4
 ```
 
-The checkpoint filename above is a suggested release name, not an existing download. To inspect the configuration without loading models, add `--dry-run`. To generate with the original softmax backbone, replace `--checkpoint ...` with `--base-model`. `--scheduler euler` is available for a demo, but changes the paper's UniPC sampling protocol.
+Download the checkpoint from [the model repository](https://huggingface.co/Lonelly/LinMorph). To inspect the configuration without loading models, add `--dry-run`. To generate with the original softmax backbone, replace `--checkpoint ...` with `--base-model`. `--scheduler euler` is available for a demo, but changes the paper's UniPC sampling protocol.
 
 ## Repository layout
 

@@ -37,3 +37,11 @@ __pycache__/
 .idea/
 
 /README_zh.md
+
+# Small, explicitly prepared project-page videos; training outputs stay ignored.
+!/docs/assets/videos/archive-*.mp4
+!/docs/assets/videos/full-*.mp4
+!/docs/assets/videos/vbench-mosaic.mp4
+
+# Withhold the unpublished manuscript until its arXiv release.
+/docs/assets/LinMorph.pdf

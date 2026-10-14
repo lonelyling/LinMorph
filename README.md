@@ -2,11 +2,11 @@
 
 **Learning to Morph Weights for Efficient Video DiT Linearization**
 
-[Project page](https://lonelyling.github.io/LinMorph/) · [Installation](docs/installation.md) · [Training](docs/training.md) · [Evaluation](docs/evaluation.md) · [Models](docs/models.md)
+[Project page](https://lonelyling.github.io/LinMorph/) · [Paper](https://arxiv.org/abs/2610.17914) · [Installation](docs/installation.md) · [Training](docs/training.md) · [Evaluation](docs/evaluation.md) · [Models](docs/models.md)
 
 LinMorph learns a shared transformation from pretrained softmax-attention projections to Gated DeltaNet (GDN) parameters. The generated parameters initialize independently trainable replacement blocks, followed by progressive distillation and full hybrid-DiT recovery.
 
-This release directory consolidates the local research implementation on top of DiffSynth-Studio. Core import names and checkpoint tensor names are retained for compatibility. Weights and datasets are not bundled. Model weights are hosted at [Lonelly/LinMorph](https://huggingface.co/Lonelly/LinMorph). A public paper identifier and final author metadata are not yet available. See [release status](docs/release_checklist.md) for the remaining publication steps and validation limits.
+This release directory consolidates the local research implementation on top of DiffSynth-Studio. Core import names and checkpoint tensor names are retained for compatibility. Weights and datasets are not bundled. Model weights are hosted at [Lonelly/LinMorph](https://huggingface.co/Lonelly/LinMorph). The paper is available on [arXiv:2610.17914](https://arxiv.org/abs/2610.17914). See [release status](docs/release_checklist.md) for the remaining publication steps and validation limits.
 
 ## Models
 
